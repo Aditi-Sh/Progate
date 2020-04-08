@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Theory</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stylesheet2.css">
+</head>
+<body>
+<nav id="navbar">
+  <header>About CSS</header>
+  <ul>
+    <li>
+      <a class="nav-link" href="SecondPage.html"><STRONG>HOME</STRONG></a>
+    </li>
+    <li>
+    	<a class="nav-link" href="#Introduction">Introduction</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#Syntax">Syntax</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#Colors">Colors</a>
+    </li>
+    <li>
+    	<a class="nav-link" href="#Background">Background</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#Borders">Borders</a>
+    </li>
+    
+  </ul>
+</nav>
+  <main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header><strong><u><h1>Introduction</h1></u></strong></header>
+    <article>
+       <h2> <p>What is CSS?</p></h2>
+      <p> CSS stands for Cascading Style Sheets.</p>
+       <p>CSS describes how HTML elements are to be displayed on screen, paper, or in other media.</p>
+      <p> CSS saves a lot of work. It can control the layout of multiple web pages all at once.</p>
+      <p> External stylesheets are stored in CSS files</p>
+      <h2><p>Why Use CSS?</p></h2>
+       <p>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</p>
+      
+
+  </article>
+  <h2><p>CSS Saves a Lot of Work!</p></h2>
+      <p>The style definitions are normally saved in external .css files.</p>
+      <p>With an external stylesheet file, you can change the look of an entire website by changing just one file!</p>
+</section>
+
+
+<section class="main-section" id="Syntax">
+	<header><strong><u><h1>Syntax</h1></u></strong></header>
+	<article>
+	<p>A CSS rule-set consists of a selector and a declaration block:
+The selector points to the HTML element you want to style.</p>
+<p>The declaration block contains one or more declarations separated by semicolons.</p>
+<p>Each declaration includes a CSS property name and a value, separated by a colon.</p>
+<p>A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces</p>
+<p>Below is example:</p><br>
+ <p>p {
+  color: red;
+  text-align: center;
+}
+</p>
+<br>
+
+	</article>
+</section>
+
+
+<section class="main-section" id="Colors">
+	<header><strong><u><h1><p>Colors</p></h1></u></strong></header>
+	<article>
+     <h2><p>CSS Selectors</p></h2>
+<p>CSS selectors are used to "find" (or select) the HTML elements you want to style.
+We can divide CSS selectors into five categories:
+Simple selectors (select elements based on name, id, class)
+Combinator selectors (select elements based on a specific relationship between them)
+Pseudo-class selectors (select elements based on a certain state)
+Pseudo-elements selectors (select and style a part of an element)
+Attribute selectors (select elements based on an attribute or attribute value)
+This page will explain the most basic CSS selectors.
+
+</p>
+<p>Below is example:</p><br>
+<p>
+  h1, h2, p {
+  text-align: center;
+  color: red;
+}
+</p>
+<br>
+    </article>
+</section>
+
+
+<section  class="main-section" id="Background">
+	<header><strong><u><h1>Background</h1></u></strong></header>
+	<article>
+    <p>
+      The CSS background properties are used to define the background effects for elements.</p>
+
+<p>In these chapters, you will learn about the following CSS background properties:</p>
+<p>background-color</p>
+<p>background-image</p>
+<p>background-repeat</p>
+<p>background-attachment</p>
+<p>background-position</p>
+    <p>Below is example:</p><br><p>
+      
+      h1 {
+  background-color: green;
+}
+
+div {
+  background-color: lightblue;
+}
+
+p {
+  background-color: yellow;
+}
+    </p><br>
+
+  </article>
+</section>
+
+
+<section  class="main-section" id="Borders">
+	<header><strong><u><h1>Borders</h1></u></strong></header>
+	<article>
+   <p> The border-style property specifies what kind of border to display.
+
+ <p>The following values are allowed:
+
+<p>dotted - Defines a dotted border</p>
+<p>dashed - Defines a dashed border</p>
+<p>solid - Defines a solid border</p>
+<p>double - Defines a double border</p>
+<p>groove - Defines a 3D grooved border. The effect depends on the border-color value</p>
+<p>ridge - Defines a 3D ridged border. The effect depends on the border-color value</p>
+<p>inset - Defines a 3D inset border. The effect depends on the border-color value</p>
+<p>outset - Defines a 3D outset border. The effect depends on the border-color value</p>
+<p>none - Defines no border</p>
+<p>hidden - Defines a hidden border</p>
+<p>The border-style property can have from one to four values (for the top border, right border, bottom border, and the left border).</p>
+    </article>
+</section>
+
+
+</main>
+</body>
+</html>

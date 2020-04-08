@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Theory</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="stylesheet2.css">
+</head>
+<body>
+<nav id="navbar">
+  <header>About CSS</header>
+  <ul>
+    <li>
+      <a class="nav-link" href="SecondPage.html"><STRONG>HOME</STRONG></a>
+    </li>
+    
+    <li>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+    </li>
+    <li><a class="nav-link" href="#Comments">Comments</a></li>
+  
+    <li>
+      <a class="nav-link" href="#Variables">Variables</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#Operators">Operators</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#Assignment">Assignment</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#Functions">Functions</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#Objects">Objects</a>
+    </li>
+    </ul>
+</nav>
+  <main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header><strong><u><h1>Introduction</h1></u></strong></header>
+    <article>
+     <h2><p>JavaScript Can Change HTML Content</p></h2>
+   <p>One of many JavaScript HTML methods is getElementById().</p>
+   <p>This example uses the method to "find" an HTML element (with id="demo") and changes the element content (innerHTML) to "Hello JavaScript"</p><br>
+   <p>document.getElementById("demo").innerHTML = "Hello JavaScript";</p><br>
+   <p>JavaScript Can Change HTML Attribute Values</p>
+    <p>JavaScript Can Change HTML Styles (CSS)</p>
+  </article>
+</section>
+   
+
+  <section  class="main-section" id="Comments">
+  <header><strong><u><h1>Comments</h1></u></strong></header>
+  <article>
+       <p>JavaScript comments can be used to explain JavaScript code, and to make it more readable.</p><p>JavaScript comments can also be used to prevent execution, when testing alternative code.</p>
+       <h2><p>Single Line Comments</p></h2>
+        <p>Single line comments start with //.Any text between // and the end of the line will be ignored by JavaScript (will not be executed)</p>
+     <h2><p>Multi-line Comments</p></h2>
+        <p>Multi-line comments start with /* and end with */.</p>
+       <p> Any text between /* and */ will be ignored by JavaScript.</p>
+  </article>
+</section>
+
+
+
+<section class="main-section" id="Variables">
+  <header><strong><u><h1>Variables</h1></u></strong></header>
+  <article>
+     <p>JavaScript variables are containers for storing data values.</p>
+      <p>In this example, x, y, and z, are variables:</p>
+
+           <p>Example</p>
+           <p>var x = 5;</p>
+           <p>var y = 6;</p>
+           <p>var z = x + y;</p>
+           <br>
+           <p>From the example above, you can expect:</p>
+          <br>
+          <p>x stores the value 5</p>
+          <p>y stores the value 6</p>
+          <p>z stores the value 11</p>
+
+  </article>
+</section>
+
+
+<section class="main-section" id="Operators">
+  <header><strong><u><h1><p>Operators</p></h1></u></strong></header>
+  <article>
+    <p>They are used to perform mathematical calculations and are very useful</p>
+  <img src="operators.jpg" height="700" width="1000">
+    </article>
+</section>
+
+
+<section  class="main-section" id="Assignment">
+  <header><strong><u><h1>Assignment</h1></u></strong></header>
+  <article>
+    
+   <p>They are used to assign value to a particular variable.Below is the list of such operations</p>
+   <img src="assign.jpg" height="700" width="1000">
+  </article>
+</section>
+
+
+<section  class="main-section" id="Functions">
+  <header><strong><u><h1>Functions</h1></u></strong></header>
+  <article>
+    
+
+  <p> A JavaScript function is a block of code designed to perform a particular task.A JavaScript function is executed when "something" invokes it (calls it).</p>
+
+<p>Example</p><br>
+<p>function myFunction(p1, p2) {
+  return p1 * p2;   // The function returns the product of p1 and p2
+}</p><br>
+<h2><p>JavaScript Function Syntax</p></h2>
+<p>A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().Function names can contain letters, digits, underscores, and dollar signs (same rules as variables).
+The parentheses may include parameter names separated by commas:
+(parameter1, parameter2, ...)
+The code to be executed, by the function, is placed inside curly brackets: {}</p><br>
+
+<p>function name(parameter1, parameter2, parameter3) {
+  // code to be executed
+}</p>
+<br>
+<p>Function parameters are listed inside the parentheses () in the function definition.
+Function arguments are the values received by the function when it is invoked.
+Inside the function, the arguments (the parameters) behave as local variables.
+A Function is much the same as a Procedure or a Subroutine, in other programming languages.
+
+<h2><p>Function Invocation</p></h2>
+<p>The code inside the function will execute when "something" invokes (calls) the function.When an event occurs (when a user clicks a button)
+When it is invoked (called) from JavaScript code
+Automatically (self invoked).</p>
+    </article>
+</section>
+
+
+<section class="main-section" id="Objects">
+  <header><strong><u><h1>Objects</h1></u></strong></header>
+  <article>
+    <p>Objects in Javascript. ... Loosely speaking, objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs. These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.</p>
+    <p>Below is the exapmle:</p><br>
+    <p>var person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+};</p>
+  </article>
+</section>
+
+
+</main>
+</body>
+</html>
